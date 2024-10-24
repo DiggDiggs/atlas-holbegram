@@ -11,11 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^2.16.0
-  firebase_auth: ^5.8.0
-  cloud_firestore: ^5.8.0
-  firebase_storage: ^11.0.0
-  firebase_database: ^10.0.0
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.4
+  firebase_database: ^11.1.4
 
 dev_dependencies:
   flutter_test:
@@ -23,3 +23,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/Billabong.ttf
